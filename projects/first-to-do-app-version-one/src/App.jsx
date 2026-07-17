@@ -1,10 +1,10 @@
-
+import Title from "./Title";
 function App() {
   
 
   return (
     <center class='to-do-container'>
-      <h1>Todo-App</h1>
+      <Title/>
     
  <div class="container text-center">
 
@@ -28,8 +28,12 @@ function App() {
     <div class="col-2"><button type="button" class="btn btn-danger">Delete</button></div>
   </div>
 </div>
+<div><time datetime="current"></time></div>
       </center>
+   
+
   )
 }
 
-export default App
+
+export default App;
