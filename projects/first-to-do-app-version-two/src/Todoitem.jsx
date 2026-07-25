@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 function Item()
 {
     return  <>
@@ -7,8 +7,8 @@ function Item()
     
     <div  className="col-6"><input type="text" placeholder="Enter To Do Here" /></div>
     <div className="col-4"><input type="date" /></div>
-    <div className="col-2 addbutton">
-      <button type="button" className="btn btn-success  addbutton">Add</button>
+    <div className="col-2  add">
+      <button type="button" className="btn btn-success  ">Add</button>
       </div>
   </div>
   </>    
